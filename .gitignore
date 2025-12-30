@@ -1,0 +1,47 @@
+# ===============================
+# Terraform
+# ===============================
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+.terraform.lock.hcl
+
+# ===============================
+# AWS / Credentials
+# ===============================
+.aws/
+*.pem
+*.key
+id_ed25519
+id_ed25519.pub
+
+# ===============================
+# Logs & Output files
+# ===============================
+*.log
+outputs.json
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# ===============================
+# Zip / Binary files
+# ===============================
+*.zip
+terraform_*
+awscliv2.zip
+
+# ===============================
+# HTML test files (optional)
+# ===============================
+my_page.html
+style.css
+
+aws/
+cd/
